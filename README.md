@@ -6,7 +6,8 @@ Das Spiel ist an den Lehrfilm „Elektriker Horst“ angelehnt und bringt dem Sp
 # Was beeinhaltet das Repository?
 Dieses Repository beschränkt sich auf Inhalte, an denen ich direkt mitgewirkt habe, im Web-Dev-Team. Somit fehlen alle Inhalte aus des Game-Dev-Teams.
 
-Hauptsächlich habe ich das Backend(PHP) der API und der Website geschrieben und die Serverinfrastruktur für die API und die Website bereitgestellt.
+Hauptsächlich habe ich das Backend(PHP) der API und der Website geschrieben und die Serverinfrastruktur für die API und die Website bereitgestellt.<br>
+Ich habe mich zudem bei dem schreiben der Docs beteiligt und die Projektplanung im Web-Dev-Team übernommen.
 
 ## Verweise
 
