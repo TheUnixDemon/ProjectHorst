@@ -1,0 +1,57 @@
+footer {
+    background-color: #C0EEF2;
+    color: #181823;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer table {
+    display: inline-block;
+    margin: auto;
+    border-spacing: 5px;
+}
+
+footer table th {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer table td {
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer table td a {
+    color: #537FE7;
+}
+
+#headFooter {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    position: relative;
+  }
+  
+  footer table {
+    display: block;
+    margin: auto;
+    border-spacing: 0;
+  }
+  
+  footer table td {
+    padding: 5px 0;
+    text-align: center;
+  }
+}

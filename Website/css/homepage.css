@@ -1,0 +1,111 @@
+.mainVideo video {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    border: 0;
+    border-radius: 20px;
+}
+
+.containerInfo table {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 30px;
+}
+
+.containerInfo table tr td {
+    margin: 30%;
+}
+
+.infoLineOne {
+    text-align: left;
+}
+
+.infoLineTwo {
+    text-align: right;
+}
+
+.infoImage img {
+    width: 400px;
+    height: auto;
+    border: 0;
+    border-radius: 15px;
+}
+
+.containerInfoText {
+    margin-bottom: 40px;
+}
+
+.containerInfoText {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+@media screen and (max-width: 1280px) {     
+    .containerInfoText {
+        font-size: 15px;
+    }
+
+    .containerInfo table tr td {
+        margin: 20%;
+        font-size: 15px;
+    }
+
+    .containerInfo table {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .infoImage img {
+        width: 250px;
+        height: auto;
+        border: 0;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {   
+    .containerInfoText {
+        font-size: 14px;
+    }
+
+    .infoLineOne {
+        text-align: center;
+    }
+    
+    .infoLineTwo {
+        text-align: center;
+    }
+
+    .containerInfo table tr td {
+        margin: 10%;
+        font-size: 14px;
+    }
+
+    .containerInfo table tr td {
+        display: flex;
+    }
+
+    .containerInfo table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .infoImage {
+        width: 230px;
+        height: auto;
+        border: 0;
+        border-radius: 15px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,22 @@
+<form method="post" action="release.php" enctype="multipart/form-data">
+    <div class="containerAdmin">
+        <div class="createRelease">
+            <ul>
+                <li id="headRelease">Neuen Release erstellen</li>
+                <li><input type="text" placeholder="Titel" name="createTitle"></li>
+                <li class="file">Game<br><input type="file" placeholder="Game" name="game"></li>
+                <li class="file">Markdown<br><input type="file" placeholder="Markdown" name="markdown"></li>
+                <li><input type="password" placeholder="Passwort" name="createPass"></li>
+                <li><button type="submit" name="submit" value="submitRelease">Erstellen</button></li>
+            </ul>
+        </div>
+        <div class="deleteRelease">
+            <ul>
+                <li id="headRelease">Release entfernen</li>
+                <li><input type="text" placeholder="Titel" name="delTitle"></li>
+                <li><input type="password" placeholder="Passwort" name="delPass"></li>
+                <li><button type="submit" name="submit" value="submitDelete">Entfernen</button></li>
+            </ul>
+        </div>
+    </div>
+</form>

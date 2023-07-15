@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    color: #181823;
+  }
+  
+.signIN, .signUP {
+    width: 25%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 6px solid #E9F8F9;
+    background-color: #C0EEF2;
+}
+
+.signIN ul li, .signUP ul li {
+    text-align: center;
+    margin-top: 2px;
+    list-style: none;
+    margin-right: 8%;
+}
+
+#headReg {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 85%;
+    font-size: 14px;
+    padding: 4px 10px;
+    margin: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80px;
+    font-size: 13px;
+    padding: 5px;
+    margin: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* Für Mobilgeräte mit einer Bildschirmbreite von maximal 600px */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .signIN, .signUP {
+        width: 80%;
+        margin: 10px 0;
+    }
+    
+    input[type=text], input[type=password] {
+        width: 70%;
+    }
+    
+    input[type=submit] {
+        margin: 12px;
+    }
+}

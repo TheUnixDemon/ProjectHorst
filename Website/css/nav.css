@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+nav ul li {
+  width: 15%;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+nav ul {
+  padding-left: 6%;
+  padding-right: 6%;
+  list-style-type: none;
+  margin-top: 0;
+  overflow: hidden;
+  background-color: #C0EEF2;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a{
+  display: block;
+  color: #181823;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #E9F8F9;
+  color: #181823;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul li {
+    width: auto;
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li a {
+    padding: 10px 0;
+    border-bottom: 2px solid #E9F8F9;
+  }
+  nav ul li:last-child a {
+    border-bottom: none;
+  }
+}

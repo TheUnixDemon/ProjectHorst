@@ -1,0 +1,78 @@
+.profile, .lastRounds {
+    margin-top: 16px;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.profile tr td img {
+    width: 200px;
+    height: auto;
+
+    border-radius: 10%;
+}
+
+.username {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile tr th, .lastRounds tr th {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile table tr td, .profile table tr th {
+    padding: 10px;
+    text-align: left;
+}
+
+
+.profile table td, .lastRounds table td {
+    background-color: rgb(235, 235, 235);
+    border: 2px solid rgb(185, 185, 185);
+    border-collapse: collapse;
+}
+
+.lastRounds table tr td, .lastRounds table tr th {
+    text-align: center;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.lastRounds table tr td {
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 900px) {
+    .profileContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .profileContainer table {
+        margin-top: 20px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.editProfile table {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editProfile button {
+    width: 80px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 12px;
+}

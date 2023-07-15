@@ -1,0 +1,11 @@
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.feedback { /*wird für Fehlermeldungen und co. verwendet*/
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #181823;
+}

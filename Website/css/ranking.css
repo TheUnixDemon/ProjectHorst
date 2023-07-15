@@ -1,0 +1,46 @@
+.scoreTable table {
+    background-color: rgb(235, 235, 235);
+    border: 2px solid rgb(185, 185, 185);
+    color:black;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.scoreTable th{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.scoreTable tr {
+    margin: 50px;
+    border: 2px solid rgb(185, 185, 185);
+    border-collapse: collapse;
+}
+
+.scoreTable td, .scoreTable th {
+    padding: 0 100px;
+}
+
+.username { /* Ausrichtung der Einträge der RankingListe */
+    text-align: left;
+}
+
+.score { /* Ausrichtung der Einträge der RankingListe */
+    text-align: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    .scoreTable td, .scoreTable th {
+        padding: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .scoreTable td, .scoreTable th {
+        padding: 0 30px;
+    }
+}
